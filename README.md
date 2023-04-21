@@ -7,5 +7,5 @@ To get started with the course, simply clone or download this repository to your
 # License
 The materials in this repository are licensed under the MIT License. See the LICENSE file for more information.
 
-Acknowledgments
+# Acknowledgments
 This repository is based on the materials and exercises provided by prof.Charles Severance for the Py4e course. Many thanks to professor for creating such a great course!
