@@ -11,8 +11,13 @@
 # Enter the file name: mbox-short.txt
 # Average spam confidence: 0.750718518519
 
+# Use the file name mbox-short.txt as the file name
 fname = input("Enter file name: ")
-fh = open(fname)
+try:
+    fh = open(fname)
+except:
+    print('File cannot be opened:', fname)
+    quit()
 count = 0
 su = 0
 for line in fh:
@@ -23,4 +28,4 @@ for line in fh:
     su += num
     count += 1
 avg = su / count
-print("Average spam confidence:", avg)
+print(f"Average spam confidence: {avg}")
