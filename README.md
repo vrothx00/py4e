@@ -4,6 +4,8 @@ This repo contains my solutions to the assignments from Py4e. The course provide
 # Getting Started
 To get started with the course, simply clone or download this repository to your local machine
 
+Clone the repository: git clone [py4e](https://github.com/vrothx00/py4e)
+
 # License
 The materials in this repository are licensed under the MIT License. See the LICENSE file for more information.
 
